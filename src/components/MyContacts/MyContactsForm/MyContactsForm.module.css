@@ -1,0 +1,32 @@
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+  padding: 16px;
+  max-width: 100%;
+  border: 1px solid rgb(209, 194, 194);
+  border-radius: 4px;
+  box-shadow: rgb(143 143 143) 2px 4px 6px;
+}
+
+.btn {
+  padding: 4px 24px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 8px;
+  color: rgb(43, 46, 44);
+  background-color: rgb(87, 145, 101);
+  font-size: 1em;
+  box-shadow: rgb(108 86 86) 1px 1px 5px;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: rgb(12, 75, 56);
+  color: white;
+  font-weight: bold;
+}
+.input {
+  padding: 6px;
+}
